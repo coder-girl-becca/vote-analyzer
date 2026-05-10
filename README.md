@@ -27,14 +27,6 @@ Takes a contingency table of votes (candidates × voting methods) and outputs:
 
 Requires `numpy`, `pandas`, `scipy`. No other dependencies.
 
-## How to feed Claude this for a new analysis
-
-In a chat where this script is in the project files, just say something like:
-
-> "Run a vote-method analysis for [county/district] [election year] [race]. Pull the data from the county clerk's cumulative results PDF if available, otherwise the KY State Board of Elections recap sheets."
-
-Claude should be able to fetch the source, transcribe vote counts into the script's input format, run it, and interpret the output.
-
 ## Where to find the data (Kentucky)
 
 - **State summary (county totals only, 2-bucket "Absentee" + "Total"):**
